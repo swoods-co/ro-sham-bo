@@ -1,7 +1,8 @@
-function getComputerChoice ('Rock', 'Paper', 'Scissors') {
+function getComputerChoice () {
 
-    const answer = Math.floor(Math.random() * months.length);
+    const choice = ['Rock', 'Paper', 'Scissors'];
+
+    const answer = choice[Math.floor(Math.random()*choice.length)];
 
     return console.log(answer);
 }
-``
